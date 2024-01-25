@@ -14,7 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-SemihKalayciApp-SemihKalayciAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SemihKalayciApp-SemihKalayciAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		951B4FA72B5E8F640039E8A2 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 951B4FA62B5E8F640039E8A2 /* Fonts */; };
+		9548A6702B625D3800E4C68A /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 9548A66F2B625D3800E4C68A /* ios */; };
+		9548A6722B625D4E00E4C68A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9548A6712B625D4E00E4C68A /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,8 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-SemihKalayciApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SemihKalayciApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SemihKalayciApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SemihKalayciApp-SemihKalayciAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemihKalayciApp-SemihKalayciAppTests.release.xcconfig"; path = "Target Support Files/Pods-SemihKalayciApp-SemihKalayciAppTests/Pods-SemihKalayciApp-SemihKalayciAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		951B4FA62B5E8F640039E8A2 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../Fonts; sourceTree = "<group>"; };
+		9548A66F2B625D3800E4C68A /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; sourceTree = "<group>"; };
+		9548A6712B625D4E00E4C68A /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -88,7 +90,8 @@
 		13B07FAE1A68108700A75B9A /* SemihKalayciApp */ = {
 			isa = PBXGroup;
 			children = (
-				951B4FA62B5E8F640039E8A2 /* Fonts */,
+				9548A6712B625D4E00E4C68A /* Fonts */,
+				9548A66F2B625D3800E4C68A /* ios */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -244,8 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951B4FA72B5E8F640039E8A2 /* Fonts in Resources */,
+				9548A6722B625D4E00E4C68A /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				9548A6702B625D3800E4C68A /* ios in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
